@@ -469,10 +469,26 @@ body.two-col #wrapper { background-image: url(/assets/wrapper-back-2.png); }
   float: right;
 }
 #logo {
-  width: 200px;
+  padding-top: 20px;
+  width: 150px;
   display: block;
   float: left;
 }
+h6.search-results-title {
+  padding-top: 26px;
+  font-weight: normal;
+  font-size: 1.5em;
+  line-height: 1;
+  margin-bottom: 0.5em;
+}
+
+#header a { color: #2e6ab1; }
+#header a:hover { color: #778899; }
+#footer {
+  padding-top: 2em;
+  clear: both;
+}
+
 #sidebar {
   display: inline;
   float: left;
