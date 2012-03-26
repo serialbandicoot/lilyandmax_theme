@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.name        = 'spree_lilyandmax_theme'
   s.version     = '0.0.1'
   s.summary     = 'A Spree Commerce Theme for www.lilyandmax.co.uk based on spree_blue_theme'
-  s.homepage    = 'https://github.com/samtreweek/spree_lilyandmax_theme'
+  s.homepage    = 'https://github.com/samtreweek/lilyandmax_theme'
 
   s.author        = 'Sam T'
   s.email         = 'samtreweek@gmail.com'
