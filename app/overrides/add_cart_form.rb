@@ -1,4 +1,4 @@
-#Override::Override.new(:virtual_path => 'spree/products/show',
+#Deface::Override.new(:virtual_path => 'spree/products/show',
 #                     :name => 'add_cart_form',
 #                     :insert_after => '[data-hook="product_description"]',
 #                     :text => %q{ <div id="cart-form" data-hook="cart_form">
