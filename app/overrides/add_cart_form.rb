@@ -5,4 +5,4 @@
 #                                    <%= render 'cart_form' %>
 #                                  </div>},
 #                     :sequence => { :after => 'remove_cart_form' })
-
+#

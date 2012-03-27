@@ -7,4 +7,4 @@
 #                        </div>
 #                      },
 #                     :sequence => { :after => 'remove_product_properties_from_top_columns' })
-
+#
