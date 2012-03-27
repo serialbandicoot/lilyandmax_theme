@@ -482,13 +482,6 @@ h6.search-results-title {
   margin-bottom: 0.5em;
 }
 
-#header a { color: #2e6ab1; }
-#header a:hover { color: #778899; }
-#footer {
-  padding-top: 2em;
-  clear: both;
-}
-
 #sidebar {
   display: inline;
   float: left;
@@ -520,7 +513,7 @@ body.two-col #content {
   clear: both;
 }
 #header a { color: #2e6ab1; }
-#header a:hover { color: #eeeeee; }
+#header a:hover { color: #778899; }
 #footer {
   padding-top: 2em;
   clear: both;
