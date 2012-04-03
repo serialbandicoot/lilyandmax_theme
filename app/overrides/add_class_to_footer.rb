@@ -12,7 +12,7 @@ Deface::Override.new(:virtual_path => 'spree/layouts/spree_application',
                             <div class="columns_three">
                                <h3><span>Customer Service</span></h3>
                                 <li><%= link_to "Delivery Information", delivery_path %></li>
-                                <li><%= link_to "FAQ's'", faq_path %></li>
+                                <li><%= link_to "FAQ's", faq_path %></li>
                                 <li><%= link_to "Returns Policy", return_path %></li>
                                 <li><%= link_to "Terms and Conditions", tandc_path %></li>
                                 <p></p>
