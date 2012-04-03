@@ -517,12 +517,61 @@ body.two-col #content {
 #footer {
   padding-top: 2em;
   clear: both;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #D9D9DB;
 }
 #footer div.left { width: 37%; }
 #footer div.right {
   width: 63%;
   text-align: right;
 }
+#footer div.columns_three {
+  width: 200px;
+  float: left;
+  display: inline;
+}
+#footer div.columns_about_us {
+  width: 130px;
+  float: left;
+  display: inline;
+}
+
+#footer div.columns_four {
+  width: 300px;
+  float: left;
+  display: inline;
+}
+
+#footer div.columns_five {
+  width: 250px;
+  float: left;
+  display: inline;
+}
+
+#footer li {
+     list-style-type: none;
+}
+
+#footer a {
+    outline: none;
+    text-decoration: none;
+}
+
+#footer-left p {
+  float: right;
+}
+
+#footer div.comodo {
+    /*background: url(/assets/SSL_200x40_ani2.gif);*/
+    /*background: transparent url(/assets/cart-empty_x32.png) center right no-repeat;*/
+}
+
+table.address_details {
+    width: 200px;
+}
+
+
 h1 { font-size: 2.5em; }
 .form-buttons, .clear { clear: both; }
 input.title { width: auto; }
