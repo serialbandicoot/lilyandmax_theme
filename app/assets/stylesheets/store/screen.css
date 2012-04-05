@@ -538,16 +538,27 @@ body.two-col #content {
 }
 
 #footer div.columns_four {
-  width: 300px;
+  width: 200px;
   float: left;
   display: inline;
 }
 
 #footer div.columns_five {
+  width: 150px;
+  float: left;
+  display: inline;
+}
+
+#footer div.columns_six {
   width: 250px;
   float: left;
   display: inline;
 }
+
+#footer input[type="text"],
+textarea {
+    width:200px;
+    }
 
 #footer li {
      list-style-type: none;

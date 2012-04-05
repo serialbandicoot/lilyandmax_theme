@@ -29,17 +29,22 @@ Deface::Override.new(:virtual_path => 'spree/layouts/spree_application',
                                 <!-- Moneybookers -->
                                 <a href='https://www.moneybookers.com/'>
                                 <img src='/assets/plain-four-versions-rgb_168x45.gif' border="0" alt='https://www.moneybookers.com/'>
-                                &nbsp;
+
                                 <!-- PayPal Logo -->
                                 <a href="#" onclick="javascript:window.open('https://www.paypal.com/uk/cgi-bin/webscr?cmd=xpt/Marketing/popup/OLCWhatIsPayPal-outside','olcwhatispaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=400, height=500');"><img  src="https://www.paypal.com/en_GB/Marketing/i/logo/PayPal_logo_80x35.gif" border="0" alt="PayPal-Standard-Logo"></a><!-- PayPal Logo -->
                             </div>
                             <div class="columns_five">
-                              <h3><span>Website security</span></h3>
+                              <h3><span> Security</span></h3>
                               <div class='comodo'>
                                 <a href="http://www.comodo.com/e-commerce/ssl-certificates/secure-server.php">
-                                <img src="/assets/SSL_200x40_ani2.gif" border="0" alt="Click Here for 30 day free trial">
+                                <img src="assets/SSL_111x91_ani1.gif" border="0" alt="Click Here for 30 day free trial">
                                 </a><a href="http://www.comodo.com/e-commerce/ssl-certificates/secure-server.php" id="cnbanner">SSL</a>
                                 <script language="JavaScript" src="http://www.comodo.com/javascript/banner.js" type="text/javascript"></script>
+                              </div>
+                            </div>
+                            <div class="columns_six">
+                              <h3><span> Newsletter</span></h3>
+                                <div id="location_for_newsletter"></div>
                               </div>
                             </div>
 
