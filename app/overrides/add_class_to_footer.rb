@@ -37,7 +37,7 @@ Deface::Override.new(:virtual_path => 'spree/layouts/spree_application',
                               <h3><span> Security</span></h3>
                               <div class='comodo'>
                                 <a href="http://www.comodo.com/e-commerce/ssl-certificates/secure-server.php">
-                                <img src="assets/SSL_111x91_ani1.gif" border="0" alt="Click Here for 30 day free trial">
+                                <img src="/assets/SSL_111x91_ani1.gif" border="0" alt="Click Here for 30 day free trial">
                                 </a><a href="http://www.comodo.com/e-commerce/ssl-certificates/secure-server.php" id="cnbanner">SSL</a>
                                 <script language="JavaScript" src="http://www.comodo.com/javascript/banner.js" type="text/javascript"></script>
                               </div>
