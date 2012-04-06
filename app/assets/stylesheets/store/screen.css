@@ -508,7 +508,7 @@ body.two-col #content {
   margin-left: 0;
 }
 #header {
-  position: relative;
+  /*position: relative;*/
   color: #2e6ab1;
   clear: both;
 }
