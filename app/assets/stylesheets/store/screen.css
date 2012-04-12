@@ -1246,7 +1246,7 @@ form#checkout_form_address {
   display: block;
   float: left;
   padding-right: 20px;
-  width: 210px;
+  width: 200px;
 }
 #order_details .steps-data div.columns.four.omega,
 #order_summary .steps-data div.columns.four.omega {
