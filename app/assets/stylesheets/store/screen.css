@@ -977,10 +977,6 @@ ul.thumbnails li.selected { border-color: #999999; }
   border-right: 1px solid #eeeeee;
 }
 
-#product-description p {
-   height: 312px;
-}
-
 #cart-form {
   display: inline;
   float: left;
@@ -1351,7 +1347,7 @@ h6.product-section-title {
     margin-top: 10px;
 }
 
-#content table {
+table product-properties {
    width: 336px;
    border: 1px solid #d3d3d3;
 }
@@ -1359,3 +1355,7 @@ h6.product-section-title {
 .container .six.columns {
     width: 340px;
 }
+
+
+
+
