@@ -1390,3 +1390,8 @@ table#cart-detail thead {
     text-transform: uppercase;
 }
 
+form textarea#email_to_friend_message {
+    width: 350px;
+    heigh: 20px;
+}
+
