@@ -23,40 +23,7 @@ Deface::Override.new(:virtual_path => 'spree/products/show',
                             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                           </div>
                           <div id="google">
-                            <script type="text/javascript">
-                              (function() {
-                                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                                po.src = 'https://apis.google.com/js/plusone.js';
-                                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-                              })();
-                            </script>
-                            <g:plusone expr:href='data:post.url' size='medium'/>
+                            <div class="g-plusone" data-size="medium"></div>
                           </div>
                        </div>
-
                      })
-#
-#Deface::Override.new(:virtual_path => 'spree/products/show',
-#             :name => 'add_facebook',
-#             :insert_bottom => '[data-hook="social_network"]',
-#             :text => %q{
-#
-#             })
-
-
-#
-#<div id="facebook" data-hook="facebook_network">
-#                                         <h6 class="product-section-title">Social</h6>
-#                                          <div id="fb-root"></div>
-#                                          <script>(function(d, s, id) {
-#                                            var js, fjs = d.getElementsByTagName(s)[0];
-#                                            if (d.getElementById(id)) return;
-#                                            js = d.createElement(s); js.id = id;
-#                                            js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-#                                            fjs.parentNode.insertBefore(js, fjs);
-#                                          }(document, 'script', 'facebook-jssdk'));</script>
-#                             <div id="facebook">
-#                                <h6>facebook</h6>
-#                                <div class="fb-like" data-send="false" data-width="50" data-show-faces="false"></div>
-#                             </div>
-#                          </div>

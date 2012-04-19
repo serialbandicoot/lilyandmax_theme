@@ -1392,7 +1392,7 @@ table#cart-detail thead {
 
 #taxon-crumbs {
     position:absolute;
-    top:200px;
+    top:210px;
     right:0;
     width:190px;
     right: 20px
@@ -1420,7 +1420,7 @@ form textarea#email_to_friend_message {
 }
 
 #google {
-    padding-top: 10px;
+    padding-top: 8px;
 }
 
 
