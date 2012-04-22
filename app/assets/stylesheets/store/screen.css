@@ -819,6 +819,17 @@ button.primary, a.button.primary, input.button.primary {
   font-weight: bold;
   color: #000000;
 }
+
+input[type=submit]:hover {
+    box-shadow:0 0px 3px #0066ff;
+    -webkit-box-shadow:0 0px 3px #0066ff;
+    -moz-box-shadow:0 0px 3px #0066ff;
+}
+
+
+input.button.small:hover{
+
+}
 button:hover { background-image: url(/assets/buttons/bg-button-hover.png) !important; }
 a.button:hover { background-image: url(/assets/buttons/bg-button-hover.png) !important; }
 input.button:hover { background-image: url(/assets/buttons/bg-button-hover.png) !important; }
