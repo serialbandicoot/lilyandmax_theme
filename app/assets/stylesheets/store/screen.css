@@ -792,11 +792,12 @@ button, a.button, input.button {
   -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
   background: #efefef url(/assets/buttons/bg-button.png) center left repeat-x !important;
+  /*background-color:#BBCCFF;*/
   border-style: solid;
   border-width: 1px !important;
   border-color: #dddddd #999999 #999999 #dddddd !important;
   -moz-outline-radius: 0.3em;
-  color: #111111;
+  color: rgb(51, 51, 51);
   display: inline-block;
   font-family: Helvetica Neue, Helvetica, Arial, Sans-serif;
   font-size: 1.1em !important;
@@ -804,13 +805,13 @@ button, a.button, input.button {
   font-stretch: normal;
   font-style: normal;
   font-variant: normal;
-  font-weight: normal;
+  font-weight: bold;
   line-height: 1.2em;
   margin: 0px;
   overflow: visible;
-  padding: 10px 17px;
+  padding: 5px 17px;
   text-decoration: none;
-  text-transform: lowercase;
+  /*text-transform: lowercase;*/
   width: auto;
   height: auto;
   cursor: pointer;
@@ -820,16 +821,24 @@ button.primary, a.button.primary, input.button.primary {
   color: #000000;
 }
 
+a.button:hover {
+      box-shadow:0 0px 3px #0066ff;
+    -webkit-box-shadow:0 0px 3px #0066ff;
+    -moz-box-shadow:0 0px 3px #0066ff;
+}
+
+button.primary:hover, a.button.primary:hover, input.button.primary:hover {
+    box-shadow:0 0px 3px #0066ff;
+    -webkit-box-shadow:0 0px 3px #0066ff;
+    -moz-box-shadow:0 0px 3px #0066ff;
+}
+
 input[type=submit]:hover {
     box-shadow:0 0px 3px #0066ff;
     -webkit-box-shadow:0 0px 3px #0066ff;
     -moz-box-shadow:0 0px 3px #0066ff;
 }
 
-
-input.button.small:hover{
-
-}
 button:hover { background-image: url(/assets/buttons/bg-button-hover.png) !important; }
 a.button:hover { background-image: url(/assets/buttons/bg-button-hover.png) !important; }
 input.button:hover { background-image: url(/assets/buttons/bg-button-hover.png) !important; }
