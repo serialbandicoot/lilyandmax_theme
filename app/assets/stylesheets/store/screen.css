@@ -1443,6 +1443,14 @@ form textarea#email_to_friend_message {
     padding-top: 8px;
 }
 
+#welcome_back {
+    position: absolute;
+    width: 950px;
+}
 
-
+#welcome_back h6{
+    color: #224187;
+    text-align: right;
+    text-transform: none;
+}
 
