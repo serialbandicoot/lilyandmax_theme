@@ -916,6 +916,7 @@ dl#product-price dd span.price{
   text-decoration: none;
   color: #111111;
 }
+
 .product-listing li a.info {
   position: absolute;
   bottom: 0px;
@@ -1448,9 +1449,14 @@ form textarea#email_to_friend_message {
     width: 950px;
 }
 
-#welcome_back h6{
-    color: #224187;
+#welcome_back h6 {
+    color: #5E5B5C;
     text-align: right;
     text-transform: none;
 }
+
+
+
+
+
 

@@ -1,4 +1,4 @@
-module SpreeBlueTheme
+module SpreeLilyandmaxTheme
   class Engine < Rails::Engine
     railtie_name "spree_lilyandmax_theme"
 
