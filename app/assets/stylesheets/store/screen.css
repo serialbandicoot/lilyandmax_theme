@@ -526,34 +526,41 @@ body.two-col #content {
   width: 63%;
   text-align: right;
 }
-#footer div.columns_three {
-  width: 200px;
+#footer div.columns_customer_service {
+  width: 190px;
   float: left;
   display: inline;
 }
 #footer div.columns_about_us {
-  width: 130px;
+  width: 120px;
   float: left;
   display: inline;
 }
 
-#footer div.columns_four {
+#footer div.columns_payment_options {
   width: 200px;
   float: left;
   display: inline;
 }
 
-#footer div.columns_five {
-  width: 150px;
+#footer div.columns_security {
+  width: 140px;
   float: left;
   display: inline;
 }
 
-#footer div.columns_six {
-  width: 250px;
+#footer div.columns_newsletter {
+  width: 220px;
   float: left;
   display: inline;
 }
+
+#footer div.columns_social_media {
+  width: 50px;
+  float: left;
+  display: inline;
+}
+
 
 #footer input[type="text"],
 textarea {
