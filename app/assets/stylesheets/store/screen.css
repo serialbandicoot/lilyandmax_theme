@@ -1455,6 +1455,16 @@ form textarea#email_to_friend_message {
     text-transform: none;
 }
 
+#recently_viewed {
+    position:absolute;
+    top:387px;
+    right:0;
+    width:180px;
+    right:  30px;
+}
+
+
+
 
 
 
