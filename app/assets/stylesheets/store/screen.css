@@ -627,7 +627,7 @@ p img {
 .taxons-list li.current { width: 200px; }
 .taxons-list li.current a {
   width: 180px;
-  background: url(/assets/menu-current.png) right center no-repeat;
+  background: url(/assets/menu-current-blue.png) right center no-repeat;
   white-space: nowrap;
   overflow: hidden;
 }
