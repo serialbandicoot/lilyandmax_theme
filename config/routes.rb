@@ -19,4 +19,7 @@ Spree::Core::Engine.routes.append do
 
   get 'delivery/index'
   match 'delivery', :to => "delivery#index"
+
+  get 'cupcake_decorations/index'
+  match 'cupcake_decorations', :to => "cupcake_decorations#index"
 end

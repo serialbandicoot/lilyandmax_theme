@@ -1,0 +1,31 @@
+<% content_for :sidebar do %>
+  <div data-hook="homepage_sidebar_navigation">
+    <%= render :partial => 'spree/shared/taxonomies' %>
+  </div>
+<% end %>
+
+<p></p>
+<h1>Cupcake Decorations</h1>
+
+<%
+  products = @products
+%>
+
+<% if products.map(&:cupcake_decoration).include? true  %>
+<ul id="products" class="inline product-listing" data-hook>
+  <% products.each do |product| %>
+    <% if product.cupcake_decoration == true && (Spree::Config[:show_zero_stock_products] || product.has_stock?) %>
+          <li id="product_<%= product.id %>" data-hook="products_list_item" itemscope itemtype="http://schema.org/Product">
+            <div class="product-image">
+              <%= link_to small_image(product, :itemprop => "name"), product %>
+            </div>
+            <%= link_to truncate(product.name, :length => 50), product, :class => 'info', :itemprop => "name", :title => product.name %>
+            <span class="price selling" itemprop="price"><%= number_to_currency product.price %></span>
+          </li>
+    <% end %>
+  <% end %>
+</ul>
+<% end %>
+
+
+
