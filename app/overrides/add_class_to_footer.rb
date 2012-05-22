@@ -20,7 +20,7 @@ Deface::Override.new(:virtual_path => 'spree/layouts/spree_application',
                             <div class="columns_about_us">
                             <h3><span>About us</span></h3>
                                 <li><%= link_to "About us", about_path %></li>
-                                <li><a href="http://www.lilyandmax.co.uk/store/blog">Blog</li>
+                                <li><a href="http://www.lilyandmax.co.uk/parties/blog">Blog</li>
                                 <li><%= link_to "Newsletter", news_letter_path %></li>
                                 <li><%= link_to "Contact us", contact_us_path %></li>
                             </div>
