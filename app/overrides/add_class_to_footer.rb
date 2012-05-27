@@ -15,6 +15,7 @@ Deface::Override.new(:virtual_path => 'spree/layouts/spree_application',
                                 <li><%= link_to "FAQ's", faq_path %></li>
                                 <li><%= link_to "Returns Policy", return_path %></li>
                                 <li><%= link_to "Terms and Conditions", tandc_path %></li>
+                                <li><%= link_to 'Sitemap', sitemap_path %></li>
                                 <p></p>
                             </div>
                             <div class="columns_about_us">

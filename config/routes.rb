@@ -22,4 +22,8 @@ Spree::Core::Engine.routes.append do
 
   get 'cupcake_decorations/index'
   match 'cupcake_decorations', :to => "cupcake_decorations#index"
+
+  get 'sitemap/index'
+  match 'sitemap', :to => "sitemap#index"
+
 end
