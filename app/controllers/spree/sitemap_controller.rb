@@ -1,7 +1,7 @@
 module Spree
   class SitemapController < BaseController
     def index
-      @public_dir = "http://#{Spree::Config[:site_url]}/"
+      @public_dir = "http://#{Spree::Config[:site_url]}/parties/"
 
       @products = Spree::Product.active.find(:all)
       @taxonomies = Spree::Taxonomy.all
