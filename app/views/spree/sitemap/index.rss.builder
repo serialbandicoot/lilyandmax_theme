@@ -1,3 +1,6 @@
+#temp hack for removing shipping to google
+remove = "Free standard delivery for orders over £70. For orders under £70 standard delivery is £3.95."
+
 xml.instruct! :xml, :version=>"1.0", :encoding=>"UTF-8"
 
 xml.rss "version" => "2.0", "xmlns:g" => "http://base.google.com/ns/1.0" do
@@ -12,7 +15,7 @@ xml.rss "version" => "2.0", "xmlns:g" => "http://base.google.com/ns/1.0" do
       xml.item do
         xml.id product.id.to_s
         xml.title product.name
-        xml.description product.description
+        xml.description product.description.gsub(remove, "")
         xml.link production_domain + 'parties/products/' + product.permalink
         xml.tag! "g:mpn", product.sku.to_s
         xml.tag! "g:id", product.id.to_s
