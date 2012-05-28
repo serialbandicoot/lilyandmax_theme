@@ -20,6 +20,8 @@ xml.rss "version" => "2.0", "xmlns:g" => "http://base.google.com/ns/1.0" do
         xml.tag! "g:condition", "new"
         xml.tag! "g:image_link", product.images.first.attachment.url(:product) unless product.images.empty?
         xml.tag! "g:availability", "in stock"
+        xml.tag! "g:product_type", "Arts &amp; Entertainment &gt; Party &amp; Celebration &gt; Party Supplies"
+        xml.tag! "g:google_product_category", "Arts &amp; Entertainment &gt; Party &amp; Celebration &gt; Party Supplies"
       end
     end
   end
