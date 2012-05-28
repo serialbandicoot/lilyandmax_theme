@@ -29,4 +29,8 @@ Spree::Core::Engine.routes.append do
   get 'sitemap/index'
   match 'sitemap', :to => "sitemap#index"
 
+  namespace :admin do
+    resource :google_merchants
+  end
+
 end
