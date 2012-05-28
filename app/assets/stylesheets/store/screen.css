@@ -1439,6 +1439,14 @@ form textarea#email_to_friend_message {
     right:  30px;
 }
 
+#further_product_info {
+    position:absolute;
+    top:340px;
+    right:270px;
+    width:300px;
+    height: 40px;
+}
+
 #facebook {
     padding-top: 10px;
 }
