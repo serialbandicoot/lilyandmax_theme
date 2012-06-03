@@ -22,6 +22,7 @@ xml.rss "version" => "2.0", "xmlns:g" => "http://base.google.com/ns/1.0" do
         xml.tag! "g:availability", "in stock"
         xml.tag! "g:product_type", "Arts &amp; Entertainment &gt; Party &amp; Celebration &gt; Party Supplies"
         xml.tag! "g:google_product_category", "Arts &amp; Entertainment &gt; Party &amp; Celebration &gt; Party Supplies"
+        xml.tag! "g:brand", product.brand.to_s
       end
     end
   end
