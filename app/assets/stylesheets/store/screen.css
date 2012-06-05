@@ -527,24 +527,24 @@ body.two-col #content {
   text-align: right;
 }
 #footer div.columns_customer_service {
-  width: 190px;
+  width: 170px;
   float: left;
   display: inline;
 }
 #footer div.columns_about_us {
-  width: 120px;
+  width: 100px;
   float: left;
   display: inline;
 }
 
 #footer div.columns_payment_options {
-  width: 200px;
+  width: 190px;
   float: left;
   display: inline;
 }
 
 #footer div.columns_security {
-  width: 140px;
+  width: 130px;
   float: left;
   display: inline;
 }
