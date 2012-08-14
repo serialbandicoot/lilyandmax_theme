@@ -1470,16 +1470,6 @@ form textarea#email_to_friend_message {
     text-transform: none;
 }
 
-#company_slogan h4 {
-    color: #5E5B5C;
-    text-transform: none;
-    position:absolute;
-    top:80px;
-    left: 340px;
-    font-size:14px;
-    font-weight:bold;
-}
-
 #recently_viewed {
     position:absolute;
     top:387px;
