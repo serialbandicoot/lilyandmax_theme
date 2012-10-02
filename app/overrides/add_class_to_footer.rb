@@ -24,6 +24,7 @@ Deface::Override.new(:virtual_path => 'spree/layouts/spree_application',
                                 <li><a href="http://www.lilyandmax.co.uk/parties/blog">Blog</li>
                                 <li><%= link_to "Newsletter", news_letter_path %></li>
                                 <li><%= link_to "Contact us", contact_us_path %></li>
+                                <li><%= link_to "Cookies Policy", cookies_path %></li>
                             </div>
                             <div class="columns_payment_options">
                               <h3><span>Payment options</span></h3>
