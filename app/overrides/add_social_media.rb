@@ -25,5 +25,9 @@ Deface::Override.new(:virtual_path => 'spree/products/show',
                           <div id="google">
                             <div class="g-plusone" data-size="medium"></div>
                           </div>
+                          <div id="pintrest">
+                              <script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
+                              <%= pin_it_button(@product) %>
+                          </div>
                        </div>
                      })

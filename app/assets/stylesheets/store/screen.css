@@ -1012,6 +1012,11 @@ ul.thumbnails li.selected { border-color: #999999; }
 }
 #taxon-crumbs {
   margin-top: 20px;
+  position: absolute;
+  right: 30px;
+  top: 387px;
+  width: 180px;
+}
 }
 dl.table-display {
   margin: 0;
@@ -1307,12 +1312,6 @@ h6.property-section-title {
     margin-bottom: 0.3em;
 }
 
-#taxon-crumbs {
-    margin-top: 0px;
-    float: left;
-    overflow: auto;
-}
-
 #taxon-crumbs ul {
     margin: 0 1.5em 1.5em 1.5em;
     list-style-type: disc;
@@ -1482,6 +1481,9 @@ h3.taxon-title {
     padding-left: 6px;
 }
 
+#pintrest {
+    margin-top: 10px;
+}
 
 
 
