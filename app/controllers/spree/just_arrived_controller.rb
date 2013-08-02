@@ -1,5 +1,5 @@
 module Spree
-  class CupcakeDecorationsController < BaseController
+  class JustArrivedController < BaseController
 
     def index
       @products = Spree::Product.all
